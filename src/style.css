@@ -1,0 +1,105 @@
+/* Navbar */
+.navbar {
+    background-color: black;
+    padding: 10px;
+    height:60px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px;
+    transition: all 0.3s ease;
+}
+.navbar ul li a:hover {
+    color: grey; 
+}
+
+/* Table */
+.table-container {
+    margin-top: 20px;
+}
+
+.product-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.product-table th,
+.product-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.product-table th {
+    background-color: #f2f2f2;
+}
+
+/* Pagination*/
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination button {
+    background-color: #000;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.pagination button.next {
+    background-color: #000;
+}
+
+.pagination button.prev {
+    background-color: #808080;
+}
+
+.pagination button.active {
+    background-color: #45a049;
+}
+
+.pagination button:hover {
+    background-color: #45a049;
+}
+
+/* Bookmark button  */
+.bookmark-btn {
+    background-color: #008CBA; 
+    border: none;
+    color: white;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+
+.bookmark-btn:hover {
+    background-color: #005f78; 
+}
